@@ -1,0 +1,115 @@
+{
+  "week": 4,
+  "title": "Week 4 • Blue O",
+  "words": [
+    {
+      "word": "climb",
+      "sentence": "We will climb the hill together."
+    },
+    {
+      "word": "slight",
+      "sentence": "There was a slight breeze outside."
+    },
+    {
+      "word": "twice",
+      "sentence": "She read the story twice."
+    },
+    {
+      "word": "minding",
+      "sentence": "He was minding his own business."
+    },
+    {
+      "word": "drive",
+      "sentence": "Dad will drive us to school."
+    },
+    {
+      "word": "wipe",
+      "sentence": "Please wipe the table clean."
+    },
+    {
+      "word": "pies",
+      "sentence": "Grandma baked two apple pies."
+    },
+    {
+      "word": "file",
+      "sentence": "Save the paper in the blue file."
+    },
+    {
+      "word": "pry",
+      "sentence": "Do not pry the lid open with your fingers."
+    },
+    {
+      "word": "die",
+      "sentence": "The flower may die without water."
+    },
+    {
+      "word": "kite",
+      "sentence": "The kite flew high in the sky."
+    },
+    {
+      "word": "sly",
+      "sentence": "The fox had a sly look."
+    },
+    {
+      "word": "height",
+      "sentence": "We measured the height of the wall."
+    },
+    {
+      "word": "prime",
+      "sentence": "Seven is a prime number."
+    },
+    {
+      "word": "shy",
+      "sentence": "The shy puppy hid behind the chair."
+    },
+    {
+      "word": "sigh",
+      "sentence": "She let out a big sigh."
+    },
+    {
+      "word": "fright",
+      "sentence": "The loud noise gave me a fright."
+    },
+    {
+      "word": "pride",
+      "sentence": "She felt pride after finishing her project."
+    },
+    {
+      "word": "spy",
+      "sentence": "The detective tried to spy from behind the wall."
+    },
+    {
+      "word": "slice",
+      "sentence": "He ate one slice of pizza."
+    }
+  ],
+  "bonus": [
+    {
+      "sentence": "The books are over ____.",
+      "answer": "there",
+      "choices": [
+        "there",
+        "their",
+        "they're"
+      ]
+    },
+    {
+      "sentence": "The students finished ____ homework.",
+      "answer": "their",
+      "choices": [
+        "there",
+        "their",
+        "they're"
+      ]
+    },
+    {
+      "sentence": "____ going to the park after school.",
+      "answer": "they're",
+      "choices": [
+        "there",
+        "their",
+        "they're"
+      ]
+    }
+  ]
+}
