@@ -1,0 +1,102 @@
+{
+  "week": 2,
+  "title": "Week 2 • On Level Blue",
+  "words": [
+    {
+      "word": "major",
+      "sentence": "The major event happens on Saturday."
+    },
+    {
+      "word": "drain",
+      "sentence": "Water went down the drain."
+    },
+    {
+      "word": "faint",
+      "sentence": "The sound became faint in the distance."
+    },
+    {
+      "word": "rail",
+      "sentence": "Hold the rail as you walk down the stairs."
+    },
+    {
+      "word": "clay",
+      "sentence": "We made a small bowl out of clay."
+    },
+    {
+      "word": "claim",
+      "sentence": "She made a claim about finding the missing book."
+    },
+    {
+      "word": "pale",
+      "sentence": "The moon looked pale behind the clouds."
+    },
+    {
+      "word": "face",
+      "sentence": "She had a smile on her face."
+    },
+    {
+      "word": "stray",
+      "sentence": "A stray leaf blew across the sidewalk."
+    },
+    {
+      "word": "graze",
+      "sentence": "The cows graze in the field."
+    },
+    {
+      "word": "cane",
+      "sentence": "He used a cane while walking."
+    },
+    {
+      "word": "slate",
+      "sentence": "The teacher wrote the answer on the slate."
+    },
+    {
+      "word": "today",
+      "sentence": "We are having spelling practice today."
+    },
+    {
+      "word": "ache",
+      "sentence": "My legs ache after a long run."
+    },
+    {
+      "word": "steak",
+      "sentence": "Dad cooked a steak for dinner."
+    },
+    {
+      "word": "break",
+      "sentence": "We will take a break after the lesson."
+    },
+    {
+      "word": "bail",
+      "sentence": "They had to bail water out of the small boat."
+    },
+    {
+      "word": "eight",
+      "sentence": "There are eight crayons in the box."
+    },
+    {
+      "word": "they",
+      "sentence": "They are going to the park after school."
+    },
+    {
+      "word": "obey",
+      "sentence": "We should obey the rules at school."
+    }
+  ],
+  "bonus": [
+    {
+      "sentence": "Challenge word: beautiful",
+      "answer": "beautiful",
+      "choices": [
+        "beautiful"
+      ]
+    },
+    {
+      "sentence": "Challenge word: friends",
+      "answer": "friends",
+      "choices": [
+        "friends"
+      ]
+    }
+  ]
+}
