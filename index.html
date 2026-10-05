@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#7c5cff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Sophia's Spelling</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="app">
+  <header>
+    <div>
+      <p class="eyebrow">Sophia's Study Corner</p>
+      <h1>🌸 Sophia's Spelling</h1>
+      <p id="weekTitle" class="sub">Loading this week's words…</p>
+    </div>
+    <button id="homeBtn" class="ghost small hidden">Home</button>
+  </header>
+
+  <section id="home" class="screen">
+    <div class="hero card">
+      <div class="mascot">✨</div>
+      <h2>Ready to practice?</h2>
+      <p>Hear the words, practice tricky ones, and take a full spelling test.</p>
+      <div class="grid">
+        <button class="primary" data-go="practice">Practice Words</button>
+        <button class="pink" data-go="test">Take My Test</button>
+        <button class="soft" data-go="missed">Missed Words</button>
+        <button class="soft" data-go="history">Progress</button>
+      </div>
+    </div>
+    <div class="card stats">
+      <div><b id="homeBest">0</b><span>Best score</span></div>
+      <div><b id="homeStreak">0</b><span>Best streak</span></div>
+      <div><b id="homeAttempts">0</b><span>Attempts</span></div>
+    </div>
+  </section>
+
+  <section id="practice" class="screen hidden">
+    <div class="card">
+      <p id="practiceCount" class="eyebrow"></p>
+      <div class="speaker">🔊</div>
+      <h2 id="practiceWord">Word</h2>
+      <button id="practiceHear" class="primary">Hear the Word</button>
+      <button id="practiceSentence" class="soft">Hear in a Sentence</button>
+      <div class="row">
+        <button id="practicePrev" class="ghost">← Previous</button>
+        <button id="practiceNext" class="ghost">Next →</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="test" class="screen hidden">
+    <div class="card">
+      <div class="miniStats">
+        <span><b id="score">0</b> correct</span>
+        <span><b id="streak">0</b> streak 🔥</span>
+        <span><b id="left">0</b> left</span>
+      </div>
+      <p id="wordNum" class="eyebrow"></p>
+      <div class="speaker">🔊</div>
+      <button id="hearBtn" class="primary">Hear the Word</button>
+      <input id="answer" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" placeholder="Type the word here">
+      <div class="grid two">
+        <button id="sentenceBtn" class="soft">Hear in a Sentence</button>
+        <button id="checkBtn" class="pink">Check Answer</button>
+      </div>
+      <div id="feedback"></div>
+    </div>
+  </section>
+
+  <section id="bonus" class="screen hidden">
+    <div class="card">
+      <p id="bonusNum" class="eyebrow"></p>
+      <h2>⭐ Bonus Round</h2>
+      <p id="bonusQ" class="bonusQ"></p>
+      <div id="bonusChoices" class="grid"></div>
+      <div id="bonusFeedback"></div>
+    </div>
+  </section>
+
+  <section id="results" class="screen hidden">
+    <div class="card center">
+      <h2 id="resultTitle">Great job!</h2>
+      <div id="percent" class="result">0%</div>
+      <p id="resultText"></p>
+      <div id="missedList"></div>
+      <div class="grid two">
+        <button id="retryBtn" class="soft">Retry Missed</button>
+        <button id="doneBtn" class="pink">Back Home</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="missed" class="screen hidden">
+    <div class="card">
+      <h2>Words to Review</h2>
+      <div id="savedMissed"></div>
+      <button id="missedPracticeBtn" class="primary hidden">Practice These Words</button>
+    </div>
+  </section>
+
+  <section id="history" class="screen hidden">
+    <div class="card">
+      <h2>Progress</h2>
+      <div id="historyList"></div>
+    </div>
+  </section>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>
