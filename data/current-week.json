@@ -1,115 +1,87 @@
 {
-  "week": 4,
-  "title": "Week 4 • Blue O",
+  "week": 5,
+  "title": "Week 5 • Blue O",
   "words": [
     {
-      "word": "climb",
-      "sentence": "We will climb the hill together."
+      "word": "bolt",
+      "sentence": "The bolt held the metal pieces together."
     },
     {
-      "word": "slight",
-      "sentence": "There was a slight breeze outside."
+      "word": "mold",
+      "sentence": "We used a mold to shape the clay."
     },
     {
-      "word": "twice",
-      "sentence": "She read the story twice."
+      "word": "toll",
+      "sentence": "We paid the toll before crossing the bridge."
     },
     {
-      "word": "minding",
-      "sentence": "He was minding his own business."
+      "word": "shadow",
+      "sentence": "My shadow stretched across the sidewalk."
     },
     {
-      "word": "drive",
-      "sentence": "Dad will drive us to school."
+      "word": "flow",
+      "sentence": "Watch the water flow down the stream."
     },
     {
-      "word": "wipe",
-      "sentence": "Please wipe the table clean."
+      "word": "mows",
+      "sentence": "Dad mows the lawn on Saturday."
     },
     {
-      "word": "pies",
-      "sentence": "Grandma baked two apple pies."
+      "word": "lower",
+      "sentence": "Please lower your voice in the library."
     },
     {
-      "word": "file",
-      "sentence": "Save the paper in the blue file."
+      "word": "blown",
+      "sentence": "The leaves were blown across the yard."
     },
     {
-      "word": "pry",
-      "sentence": "Do not pry the lid open with your fingers."
+      "word": "quote",
+      "sentence": "She copied a quote from the book."
     },
     {
-      "word": "die",
-      "sentence": "The flower may die without water."
+      "word": "mole",
+      "sentence": "A mole dug a tunnel under the ground."
     },
     {
-      "word": "kite",
-      "sentence": "The kite flew high in the sky."
+      "word": "stone",
+      "sentence": "He skipped a stone across the pond."
     },
     {
-      "word": "sly",
-      "sentence": "The fox had a sly look."
+      "word": "stove",
+      "sentence": "The soup is warming on the stove."
     },
     {
-      "word": "height",
-      "sentence": "We measured the height of the wall."
+      "word": "chose",
+      "sentence": "She chose the blue backpack."
     },
     {
-      "word": "prime",
-      "sentence": "Seven is a prime number."
+      "word": "sole",
+      "sentence": "The sole of my shoe was muddy."
     },
     {
-      "word": "shy",
-      "sentence": "The shy puppy hid behind the chair."
+      "word": "stole",
+      "sentence": "The thief stole the bag."
     },
     {
-      "word": "sigh",
-      "sentence": "She let out a big sigh."
+      "word": "goal",
+      "sentence": "Her goal is to read every night."
     },
     {
-      "word": "fright",
-      "sentence": "The loud noise gave me a fright."
+      "word": "load",
+      "sentence": "We carried a load of boxes inside."
     },
     {
-      "word": "pride",
-      "sentence": "She felt pride after finishing her project."
+      "word": "roasting",
+      "sentence": "The vegetables are roasting in the oven."
     },
     {
-      "word": "spy",
-      "sentence": "The detective tried to spy from behind the wall."
+      "word": "woe",
+      "sentence": "The character cried out in woe."
     },
     {
-      "word": "slice",
-      "sentence": "He ate one slice of pizza."
+      "word": "groan",
+      "sentence": "He let out a groan when he stood up."
     }
   ],
-  "bonus": [
-    {
-      "sentence": "The books are over ____.",
-      "answer": "there",
-      "choices": [
-        "there",
-        "their",
-        "they're"
-      ]
-    },
-    {
-      "sentence": "The students finished ____ homework.",
-      "answer": "their",
-      "choices": [
-        "there",
-        "their",
-        "they're"
-      ]
-    },
-    {
-      "sentence": "____ going to the park after school.",
-      "answer": "they're",
-      "choices": [
-        "there",
-        "their",
-        "they're"
-      ]
-    }
-  ]
+  "bonus": []
 }
