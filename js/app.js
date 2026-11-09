@@ -14,7 +14,35 @@ function startTest(list=week.words){quiz=shuffle(list);idx=0;score=0;streak=0;be
 function renderWord(){if(idx>=quiz.length)return (week.bonus||[]).length?startBonus():finish();answered=false;$("answer").value="";$("answer").disabled=false;$("feedback").className="";$("feedback").innerHTML="";$("checkBtn").textContent="Check Answer";$("wordNum").textContent="Word "+(idx+1)+" of "+quiz.length;$("score").textContent=score;$("streak").textContent=streak;$("left").textContent=quiz.length-idx}
 function check(){if(answered){idx++;renderWord();return}const typed=$("answer").value.trim().toLowerCase();if(!typed)return;const w=quiz[idx];answered=true;$("answer").disabled=true;if(typed===w.word){score++;streak++;bestStreak=Math.max(bestStreak,streak);$("feedback").className="feedback good";$("feedback").textContent="✅ Correct! Great job!"}else{missed.push(w);streak=0;$("feedback").className="feedback bad";$("feedback").innerHTML="❌ Correct spelling: <b>"+w.word+"</b>";speak(w.word)}$("score").textContent=score;$("streak").textContent=streak;$("checkBtn").textContent=idx===quiz.length-1?((week.bonus||[]).length?"Bonus Round ⭐":"See Results 🏆"):"Next Word ➜"}
 function startBonus(){show("bonus");bonusIndex=0;renderBonus()}
-function renderBonus(){if(bonusIndex>=(week.bonus||[]).length)return finish();const b=week.bonus[bonusIndex];$("bonusNum").textContent="Bonus "+(bonusIndex+1)+" of "+week.bonus.length;$("bonusQ").textContent=b.sentence;$("bonusFeedback").className="";$("bonusFeedback").innerHTML="";$("bonusChoices").innerHTML=b.choices.map(c=>'<button class="soft bonusChoice" data-v="'+c.replace(/"/g,"&quot;")+'">'+c+"</button>").join("");document.querySelectorAll(".bonusChoice").forEach(btn=>btn.onclick=()=>chooseBonus(btn.dataset.v))}
+function renderBonus(){
+  if(bonusIndex>=(week.bonus||[]).length)return finish();
+  const b=week.bonus[bonusIndex];
+  $("bonusNum").textContent="Bonus "+(bonusIndex+1)+" of "+week.bonus.length;
+  $("bonusFeedback").className="";
+  $("bonusFeedback").innerHTML="";
+  if(b.type==="spelling"){
+    $("bonusQ").textContent="Spell the bonus word";
+    $("bonusChoices").innerHTML='<button id="bonusHear" class="primary">🔊 Hear the Word</button><button id="bonusSentence" class="soft">Hear in a Sentence</button><input id="bonusAnswer" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" placeholder="Type the bonus word here"><button id="bonusCheck" class="pink">Check Bonus Answer</button>';
+    $("bonusHear").onclick=()=>speak(b.word);
+    $("bonusSentence").onclick=()=>speak(b.word+". "+b.sentence+" The word is "+b.word+".");
+    $("bonusCheck").onclick=()=>checkBonusSpelling();
+    $("bonusAnswer").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();$("bonusAnswer").blur();}});
+  }else{
+    $("bonusQ").textContent=b.sentence;
+    $("bonusChoices").innerHTML=b.choices.map(c=>'<button class="soft bonusChoice" data-v="'+c.replace(/"/g,"&quot;")+'">'+c+"</button>").join("");
+    document.querySelectorAll(".bonusChoice").forEach(btn=>btn.onclick=()=>chooseBonus(btn.dataset.v));
+  }
+}
+function checkBonusSpelling(){
+  const b=week.bonus[bonusIndex],input=$("bonusAnswer");
+  const typed=input.value.trim().toLowerCase();
+  if(!typed)return;
+  input.disabled=true;
+  $("bonusCheck").disabled=true;
+  if(typed===b.word){bonusScore++;$("bonusFeedback").className="feedback good";$("bonusFeedback").textContent="✅ Correct!"}
+  else{$("bonusFeedback").className="feedback bad";$("bonusFeedback").innerHTML="❌ Correct spelling: <b>"+b.word+"</b>";speak(b.word)}
+  setTimeout(()=>{bonusIndex++;renderBonus()},850);
+}
 function chooseBonus(v){const b=week.bonus[bonusIndex];if(v===b.answer){bonusScore++;$("bonusFeedback").className="feedback good";$("bonusFeedback").textContent="✅ Correct!"}else{$("bonusFeedback").className="feedback bad";$("bonusFeedback").innerHTML="❌ Correct answer: <b>"+b.answer+"</b>"}setTimeout(()=>{bonusIndex++;renderBonus()},650)}
 function finish(){const total=quiz.length+(week.bonus||[]).length,correct=score+bonusScore,pct=Math.round(correct/total*100);show("results");$("percent").textContent=pct+"%";$("resultTitle").textContent=pct===100?"Perfect Score! 🏆🌟":pct>=90?"Amazing Job! 🌟":pct>=80?"Great Work! 🎉":"Nice Practice! 💪";$("resultText").innerHTML=score+" / "+quiz.length+" spelling correct"+((week.bonus||[]).length?" • "+bonusScore+" / "+week.bonus.length+" bonus correct":"")+" • Best streak: "+bestStreak;$("missedList").innerHTML=missed.length?"<h3>Words to Practice:</h3><div class='wordList'>"+missed.map(w=>"<div class='wordChip'>"+w.word+"</div>").join("")+"</div>":"<p>✨ No spelling words missed! ✨</p>";saveStats(pct)}
 function renderMissed(){const s=getStats(),entries=Object.entries(s.missed||{}).sort((a,b)=>b[1]-a[1]);$("savedMissed").innerHTML=entries.length?"<div class='wordList'>"+entries.map(([w,n])=>"<div class='wordChip'>"+w+" <small>("+n+")</small></div>").join("")+"</div>":"<p>No missed words saved yet.</p>";$("missedPracticeBtn").classList.toggle("hidden",!entries.length);$("missedPracticeBtn").onclick=()=>{const list=entries.map(([w])=>week.words.find(x=>x.word===w)).filter(Boolean);if(list.length)startPractice(list)}}
