@@ -85,32 +85,24 @@
   ],
   "bonus": [
     {
-      "sentence": "Spell the bonus word: beautifully",
-      "answer": "beautifully",
-      "choices": [
-        "beautifully"
-      ]
+      "type": "spelling",
+      "word": "beautifully",
+      "sentence": "She sang beautifully at the concert."
     },
     {
-      "sentence": "Spell the bonus word: friendly",
-      "answer": "friendly",
-      "choices": [
-        "friendly"
-      ]
+      "type": "spelling",
+      "word": "friendly",
+      "sentence": "The new student was very friendly."
     },
     {
-      "sentence": "Spell the bonus word: people",
-      "answer": "people",
-      "choices": [
-        "people"
-      ]
+      "type": "spelling",
+      "word": "people",
+      "sentence": "Many people came to the school fair."
     },
     {
-      "sentence": "Spell the bonus word: beginning",
-      "answer": "beginning",
-      "choices": [
-        "beginning"
-      ]
+      "type": "spelling",
+      "word": "beginning",
+      "sentence": "We read the beginning of the story."
     }
   ]
 }
