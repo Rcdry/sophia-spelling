@@ -1,0 +1,116 @@
+{
+  "week": 7,
+  "title": "Week 7 • Blue O",
+  "words": [
+    {
+      "word": "whine",
+      "sentence": "The child began to whine when it was time to leave."
+    },
+    {
+      "word": "fifth",
+      "sentence": "She finished fifth in the race."
+    },
+    {
+      "word": "northern",
+      "sentence": "They traveled to the northern part of the state."
+    },
+    {
+      "word": "snatch",
+      "sentence": "The puppy tried to snatch the toy."
+    },
+    {
+      "word": "photo",
+      "sentence": "We took a photo at the park."
+    },
+    {
+      "word": "rush",
+      "sentence": "Do not rush through your homework."
+    },
+    {
+      "word": "chef",
+      "sentence": "The chef prepared dinner for the guests."
+    },
+    {
+      "word": "sketched",
+      "sentence": "She sketched a picture of the tree."
+    },
+    {
+      "word": "bring",
+      "sentence": "Please bring your book to class."
+    },
+    {
+      "word": "kitchen",
+      "sentence": "We ate breakfast in the kitchen."
+    },
+    {
+      "word": "chance",
+      "sentence": "Give yourself a chance to try again."
+    },
+    {
+      "word": "ketchup",
+      "sentence": "He put ketchup on his fries."
+    },
+    {
+      "word": "width",
+      "sentence": "We measured the width of the table."
+    },
+    {
+      "word": "stretching",
+      "sentence": "She was stretching before practice."
+    },
+    {
+      "word": "touch",
+      "sentence": "Do not touch the wet paint."
+    },
+    {
+      "word": "thirty",
+      "sentence": "There are thirty students in the room."
+    },
+    {
+      "word": "whirl",
+      "sentence": "The leaves began to whirl in the wind."
+    },
+    {
+      "word": "pitcher",
+      "sentence": "The pitcher threw the ball toward home plate."
+    },
+    {
+      "word": "graph",
+      "sentence": "We made a graph to show the results."
+    },
+    {
+      "word": "choose",
+      "sentence": "Please choose one book to read."
+    }
+  ],
+  "bonus": [
+    {
+      "sentence": "Spell the bonus word: beautifully",
+      "answer": "beautifully",
+      "choices": [
+        "beautifully"
+      ]
+    },
+    {
+      "sentence": "Spell the bonus word: friendly",
+      "answer": "friendly",
+      "choices": [
+        "friendly"
+      ]
+    },
+    {
+      "sentence": "Spell the bonus word: people",
+      "answer": "people",
+      "choices": [
+        "people"
+      ]
+    },
+    {
+      "sentence": "Spell the bonus word: beginning",
+      "answer": "beginning",
+      "choices": [
+        "beginning"
+      ]
+    }
+  ]
+}
