@@ -1,108 +1,118 @@
 {
-  "week": 7,
-  "title": "Week 7 • Blue O",
+  "week": 8,
+  "title": "Week 8 • Blue O",
   "words": [
     {
-      "word": "whine",
-      "sentence": "The child began to whine when it was time to leave."
+      "word": "thrill",
+      "sentence": "The roller coaster gave us a thrill."
     },
     {
-      "word": "fifth",
-      "sentence": "She finished fifth in the race."
+      "word": "sprawl",
+      "sentence": "The cat began to sprawl across the couch."
     },
     {
-      "word": "northern",
-      "sentence": "They traveled to the northern part of the state."
+      "word": "shred",
+      "sentence": "Please shred the old paper."
     },
     {
-      "word": "snatch",
-      "sentence": "The puppy tried to snatch the toy."
+      "word": "strand",
+      "sentence": "A strand of hair fell across her face."
     },
     {
-      "word": "photo",
-      "sentence": "We took a photo at the park."
+      "word": "script",
+      "sentence": "The actor practiced the script before the play."
     },
     {
-      "word": "rush",
-      "sentence": "Do not rush through your homework."
+      "word": "thrift",
+      "sentence": "Shopping at a thrift store can save money."
     },
     {
-      "word": "chef",
-      "sentence": "The chef prepared dinner for the guests."
+      "word": "splashing",
+      "sentence": "The children were splashing in the puddles."
     },
     {
-      "word": "sketched",
-      "sentence": "She sketched a picture of the tree."
+      "word": "shrimp",
+      "sentence": "We had shrimp for dinner."
     },
     {
-      "word": "bring",
-      "sentence": "Please bring your book to class."
+      "word": "straps",
+      "sentence": "The backpack straps were too loose."
     },
     {
-      "word": "kitchen",
-      "sentence": "We ate breakfast in the kitchen."
+      "word": "shrink",
+      "sentence": "Some clothes shrink in hot water."
     },
     {
-      "word": "chance",
-      "sentence": "Give yourself a chance to try again."
+      "word": "throb",
+      "sentence": "My finger began to throb after I bumped it."
     },
     {
-      "word": "ketchup",
-      "sentence": "He put ketchup on his fries."
+      "word": "shriek",
+      "sentence": "She let out a shriek when she saw the spider."
     },
     {
-      "word": "width",
-      "sentence": "We measured the width of the table."
+      "word": "sprang",
+      "sentence": "The rabbit sprang across the yard."
     },
     {
-      "word": "stretching",
-      "sentence": "She was stretching before practice."
+      "word": "screech",
+      "sentence": "We heard the brakes screech loudly."
     },
     {
-      "word": "touch",
-      "sentence": "Do not touch the wet paint."
+      "word": "splotch",
+      "sentence": "A red splotch appeared on the paper."
     },
     {
-      "word": "thirty",
-      "sentence": "There are thirty students in the room."
+      "word": "straighten",
+      "sentence": "Please straighten the books on the shelf."
     },
     {
-      "word": "whirl",
-      "sentence": "The leaves began to whirl in the wind."
+      "word": "sprout",
+      "sentence": "A small plant began to sprout from the soil."
     },
     {
-      "word": "pitcher",
-      "sentence": "The pitcher threw the ball toward home plate."
+      "word": "throat",
+      "sentence": "My throat felt dry after talking all day."
     },
     {
-      "word": "graph",
-      "sentence": "We made a graph to show the results."
+      "word": "screw",
+      "sentence": "Dad tightened the screw with a screwdriver."
     },
     {
-      "word": "choose",
-      "sentence": "Please choose one book to read."
+      "word": "through",
+      "sentence": "We walked through the tunnel."
     }
   ],
   "bonus": [
     {
       "type": "spelling",
-      "word": "beautifully",
-      "sentence": "She sang beautifully at the concert."
+      "word": "wolf",
+      "sentence": "A wolf howled in the distance."
     },
     {
       "type": "spelling",
-      "word": "friendly",
-      "sentence": "The new student was very friendly."
+      "word": "wolves",
+      "sentence": "The wolves traveled together in a pack."
     },
     {
       "type": "spelling",
-      "word": "people",
-      "sentence": "Many people came to the school fair."
+      "word": "shelf",
+      "sentence": "Put the book back on the shelf."
     },
     {
       "type": "spelling",
-      "word": "beginning",
-      "sentence": "We read the beginning of the story."
+      "word": "shelves",
+      "sentence": "The shelves were filled with books."
+    },
+    {
+      "type": "spelling",
+      "word": "loaf",
+      "sentence": "We bought a loaf of bread."
+    },
+    {
+      "type": "spelling",
+      "word": "loaves",
+      "sentence": "The bakery sold several loaves of bread."
     }
   ]
 }
